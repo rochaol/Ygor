@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A maldição na escola.</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo1.png" alt="">
+            <p>Um dia desses, dentro da biblioteca da escola, eu descobri um livro antigo, que após ser aberto, liberou um espirito maligno, que impregneva energia das trevas...</p>
+            <button class="btn-proximo" data-proximo="1">Entrar na biblioteca</button>
+            <button class="btn-proximo" data-proximo="2">Sair da escola</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você começa sua jornada pela escola, a fim de tentar parar o espirito.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>ou voce pode deixar o espirito livre, e apenas esquecer o que viu, oq acha?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar os livros, para tentar encontrar uma forma de parar o espirito.</button>
+            <button class="btn-proximo" data-proximo="6">Ou chamar as autoridades da escola.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No porão da escola, pode haver alguma coisa para enfrentar o espirito.</p>
+            <button class="btn-proximo" data-proximo="7">"Seguir para o porão"</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e pensa em desistir, mas voce encontra algo.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Em cima de um dos armarios do porão, havia um item misterioso, com a aparencia de uma bola vermelha e branca.</p>
+            <button class="btn-proximo" data-proximo="7">Ir atras do espirito.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando os arredores da escola, voce encontra um galpão atras da quadra, imaginando encontrar o espirito la. .</p>
+            <button class="btn-proximo" data-proximo="8">voce entra no galpão.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo3.PNG" alt="">
+            <p>No galpão, voce sente uma presença pesada e uma atmosfera densa e sombria.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir para mais a dentro do galpão.</button>
+            <button class="btn-proximo" data-proximo="10">Sair de lá o mais rapido possivel.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta a busca pelo espirito, voce percebe que ele não esta mais lá, então volta para escola.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a escola</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A porta a esquerda, voce entra em uma das salas de aula, e da de cara com o espirito, ambos se emcaram.
+               .</p>
+            <button class="btn-proximo" data-proximo="11">Ficar e encarar o espirito ou fugir?</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Voce opta por tentar se livrar do espirito nesse mesmo instante, e usa o objeto em forma de bola, voce meio que captura o espirito.</p>
+            <button class="btn-proximo" data-proximo="12">Agora voce tem posse do espirito</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo14-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da bola, o espirito tenta se comunicar com voce, telepaticamente, voce o confronta, e pergunta o porque de tudo aquilo que ele está fazendo</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>O espirito responde de forma fria, "Eu irei punir todos que um dia me fizeram mal, amaldiçoando tudo e todos que entrarem no meu caminho".</p>
+            <button class="btn-proximo" data-proximo="11">Voce fica em silencio, mas entende e entra em uma acordo com espirito, os dois iram acabar com o mundo, juntos!...</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
